@@ -1,0 +1,18 @@
+{
+    "name": "quantomtech/laravel-firebase-batch-messaging",
+    "description": "Laravel package for Firebase cloud batch messaging API",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "HakamRaza",
+            "email": "ismatcd@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Quantomtech\\LaravelFirebaseBatchMessaging\\": "src/"
+        }
+    },
+    "require": {}
+}
