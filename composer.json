@@ -1,8 +1,21 @@
 {
     "name": "quantomtech/laravel-firebase-batch-messaging",
-    "description": "Laravel package for Firebase cloud batch messaging API",
+    "description": "Laravel package for batch Firebase cloud messaging API",
+    "keywords": [
+        "laravel",
+        "firebase",
+        "push-notification",
+        "bulk",
+        "fcm"
+    ],
+    "homepage": "https://github.com/QuantomTech/laravel-firebase-batch-messaging",
     "license": "MIT",
     "version": "1.0.0",
+    "require": {
+        "php": ">=7.1",
+        "firebase/php-jwt": ">=6.1",
+        "laravel/framework": "^7.0|^8.0"
+    },
     "authors": [
         {
             "name": "HakamRaza",
@@ -14,5 +27,16 @@
             "Quantomtech\\LaravelFirebaseBatchMessaging\\": "src/"
         }
     },
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quantomtech\\LaravelFirebaseBatchMessaging\\Providers"
+            ],
+            "aliases": {
+                "FCMBatch": "Quantomtech\\LaravelFirebaseBatchMessaging\\Facades"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
