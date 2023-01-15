@@ -30,10 +30,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Quantomtech\\LaravelFirebaseBatchMessaging\\Providers"
+                "Quantomtech\\LaravelFirebaseBatchMessaging\\Providers\\FCMBatchServiceProvider"
             ],
             "aliases": {
-                "FCMBatch": "Quantomtech\\LaravelFirebaseBatchMessaging\\Facades"
+                "FCMBatch": "Quantomtech\\LaravelFirebaseBatchMessaging\\Facades\\FCMBatch"
             }
         }
     },
