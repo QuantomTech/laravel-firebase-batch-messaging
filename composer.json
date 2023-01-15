@@ -10,7 +10,7 @@
     ],
     "homepage": "https://github.com/QuantomTech/laravel-firebase-batch-messaging",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "require": {
         "php": ">=7.1",
         "firebase/php-jwt": ">=6.1",
